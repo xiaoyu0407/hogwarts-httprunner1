@@ -13,5 +13,5 @@ install:
   - poetry install -vvv
 script:
   - poetry run coverage run --source=test_mubu_login -m unittest discover
-  - poetyr run coverage report
+  - poetry run coverage report
   - poetry run coveralls
