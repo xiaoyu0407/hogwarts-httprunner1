@@ -1,0 +1,9 @@
+request:
+url: "https://mubu.com/api/login/submit"
+method: "post"
+headers:
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2)"
+                "AppleWebKit/537.36(KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+  "content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+data: "phone=18616708947&password=wodemima0407&remember=true"
+verify: False
